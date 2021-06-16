@@ -9,7 +9,7 @@ const Country = (props) => {
         <div style={style}>
             <h1>Country Name : {name} </h1>
             <h2>Capital : {capital}</h2>
-            <Link to="country/countryName"><button>click here</button></Link>
+            <Link to={`country/${name}`}><button>click here</button></Link>
         </div>
     );
 };

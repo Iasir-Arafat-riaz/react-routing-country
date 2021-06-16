@@ -1,6 +1,7 @@
 import './App.css';
 import Home from "./component/Home/Home"
 import Error from "./component/Error/Error"
+import CountryDetails from "./component/CountryDetails/CountryDetails"
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,8 +24,8 @@ function App() {
           <Route path="/*">
             <Error></Error>
           </Route>
-          <Route>
-
+          <Route path="country/:countryDetails">
+            <CountryDetails/>
           </Route>
         </Switch>
       </Router>
