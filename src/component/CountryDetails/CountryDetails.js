@@ -6,7 +6,7 @@ const CountryDetails = () => {
     return (
         <div>
             <h1>this is country details of {countryDetails}</h1>
-            <h2>country details</h2>
+            
         </div>
     );
 };
