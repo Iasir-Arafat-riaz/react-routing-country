@@ -6,7 +6,7 @@ const CountryDetails = () => {
     return (
         <div>
             <h1>this is country details of {countryDetails}</h1>
-            
+            <h1>show more</h1>
         </div>
     );
 };

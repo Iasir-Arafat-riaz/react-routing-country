@@ -24,8 +24,8 @@ function App() {
           <Route path="/*">
             <Error></Error>
           </Route>
-          <Route path="country/:countryDetails">
-            <CountryDetails/>
+          <Route path="/country/:countryDetails">
+            <CountryDetails></CountryDetails>
           </Route>
         </Switch>
       </Router>
