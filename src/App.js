@@ -20,22 +20,19 @@ function App() {
             <Home></Home>
 
           </Route>
+          
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/*">
+          <Route path="/country/:countryDetails">
+            <CountryDetails></CountryDetails>
+          </Route>
+         
+          <Route path="*">
             <Error></Error>
           </Route>
-          <Route path="/country/:CountryDetails">
-            <CountryDetails></CountryDetails>
-          </Route>
-          <Route path="/country/Afghanistan">
-            <CountryDetails></CountryDetails>
-          </Route>
-          <Route path="/co">
-            <NewCountry></NewCountry>
-
-          </Route>
+          
+          
         </Switch>
       </Router>
 
